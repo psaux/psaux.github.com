@@ -8,7 +8,7 @@ ssh_user       = "user@domain.com"
 ssh_port       = "22"
 document_root  = "~/website.com/"
 rsync_delete   = true
-deploy_default = "rsync"
+deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -95,7 +95,7 @@ task :new_post, :title do |t, args|
   mkdir_p "#{source_dir}/#{posts_dir}"
   args.with_defaults(:title => 'new-post')
   title = args.title
-  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  filename = "#{source_dir}/#{posts_dir}/#{Time.now.localtime.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
@@ -104,9 +104,11 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "date: #{Time.now.localtime.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "meta: true"
     post.puts "comments: true"
     post.puts "categories: "
+    post.puts "tags:"
     post.puts "---"
   end
 end
@@ -139,7 +141,7 @@ task :new_page, :filename do |t, args|
       page.puts "---"
       page.puts "layout: page"
       page.puts "title: \"#{title}\""
-      page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+      page.puts "date: #{Time.now.localtime.strftime('%Y-%m-%d %H:%M')}"
       page.puts "comments: true"
       page.puts "sharing: true"
       page.puts "footer: true"
@@ -250,8 +252,8 @@ multitask :push do
   cd "#{deploy_dir}" do
     system "git add ."
     system "git add -u"
-    puts "\n## Commiting: Site updated at #{Time.now.utc}"
-    message = "Site updated at #{Time.now.utc}"
+    puts "\n## Commiting: Site updated at #{Time.now.localtime}"
+    message = "Site updated at #{Time.now.localtime}"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
     system "git push origin #{deploy_branch} --force"
