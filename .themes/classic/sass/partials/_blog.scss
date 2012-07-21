@@ -3,23 +3,28 @@ article {
   a { @extend .force-wrap; }
   header {
     position: relative;
-    padding-top: 2em;
+    padding-top: 0em;
     padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
+      padding-bottom: 0.1em;
+      margin-bottom: 0.1em;
+
       a { text-decoration: none;
         &:hover { text-decoration: underline; } }
     }
     p {
-      font-size: .9em;
+      font-size: .8em;
       color: $text-color-light;
       margin: 0;
+      padding-bottom: 0.4em;
+      margin-bottom: 0.4em;
+
       &.meta {
         @extend .sans;
         text-transform: uppercase;
-        position: absolute; top: 0;
       }
     }
     @media only screen and (min-width: 768px) {
