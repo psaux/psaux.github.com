@@ -7,24 +7,24 @@ article {
     padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
+
     h1 {
       margin: 0;
       padding-bottom: 0.1em;
       margin-bottom: 0.1em;
 
       a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+        &:hover { text-decoration: underline; }
+      }
     }
+
     p {
       font-size: .8em;
       color: $text-color-light;
       margin: 0;
-      padding-bottom: 0.4em;
-      margin-bottom: 0.4em;
 
       &.meta {
         @extend .sans;
-        text-transform: uppercase;
       }
     }
     @media only screen and (min-width: 768px) {

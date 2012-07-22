@@ -35,7 +35,25 @@
     .month, .day { display: inline-block; }
     .month { text-transform: uppercase; }
   }
-  p { margin-bottom: 1em; }
+  p {
+    font-size: .8em;
+    color: $text-color-light;
+    margin-bottom: 1em;
+
+    &.meta {
+      @extend .sans;
+
+      a {
+        text-display: none;
+        color: $link-color-active;
+        &:hover { color: $link-color-hover; }
+      }
+
+      .categories {
+        margin-right: 1em;
+      }
+    }
+  }
   &, .entry-content { a { @include link-colors(inherit, $link-color-hover); }}
   a:hover { color: $link-color-hover; }
   @media only screen and (min-width: 550px) {
