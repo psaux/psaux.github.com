@@ -1,6 +1,7 @@
-{% capture category %}{% if post %}{{ post.categories | category_links | size }}{% else %}{{ page.categories | category_links | size }}{% endif %}{% endcapture %}
+{% capture category %}{% if post %}{{ post.categories | size }}{% else %}{{ page.categories | size }}{% endif %}{% endcapture %}
 {% unless category == '0' %}
 <span class="categories">
+  {% if category == '1' %}{{ 'Category:' }}{% else %}{{ 'Categories:' }}{% endif %}
   {% if post %}
     {{ post.categories | category_links }}
   {% else %}
