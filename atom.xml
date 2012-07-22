@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[星尘的Blog --- GitHub + Octopress]]></title>
+  <link href="http://psaux.github.com/atom.xml" rel="self"/>
+  <link href="http://psaux.github.com/"/>
+  <updated>2012-07-23T02:53:01+08:00</updated>
+  <id>http://psaux.github.com/</id>
+  <author>
+    <name><![CDATA[星尘]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
