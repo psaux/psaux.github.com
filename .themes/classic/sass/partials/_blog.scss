@@ -13,7 +13,8 @@ article {
       padding-bottom: 0.1em;
       margin-bottom: 0.1em;
 
-      a { text-decoration: none;
+      a {
+        text-decoration: none;
         &:hover { text-decoration: underline; }
       }
     }
@@ -31,6 +32,7 @@ article {
         margin-left: 1em;
       }
     }
+
     @media only screen and (min-width: 768px) {
       margin-bottom: 1.5em;
       padding-bottom: 1em;
