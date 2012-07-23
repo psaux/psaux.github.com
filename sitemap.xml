@@ -2,16 +2,16 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://psaux.github.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong/
+            http://blog.konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong/
         </loc>
         <lastmod>2012-07-23T18:03:57+08:00</lastmod>
     </url>
     <url>
-        <loc>http://psaux.github.com/blog/archives/</loc>
+        <loc>http://blog.konglh.com/blog/archives/</loc>
         <lastmod>2012-07-23T18:03:57+08:00</lastmod>
     </url>
     <url>
-        <loc>http://psaux.github.com/</loc>
+        <loc>http://blog.konglh.com/</loc>
         <lastmod>2012-07-23T18:03:57+08:00</lastmod>
     </url>
 </urlset>

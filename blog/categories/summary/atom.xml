@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Summary | 星尘的Blog --- GitHub + Octopress]]></title>
-  <link href="http://psaux.github.com/blog/categories/summary/atom.xml" rel="self"/>
-  <link href="http://psaux.github.com/"/>
-  <updated>2012-07-23T18:04:01+08:00</updated>
-  <id>http://psaux.github.com/</id>
+  <title><![CDATA[Category: Summary | 星尘的Blog]]></title>
+  <link href="http://blog.konglh.com/blog/categories/summary/atom.xml" rel="self"/>
+  <link href="http://blog.konglh.com/"/>
+  <updated>2012-07-23T23:55:36+08:00</updated>
+  <id>http://blog.konglh.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[基于 GitHub + Octopress 搭建博客系统]]></title>
-    <link href="http://psaux.github.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong/"/>
+    <link href="http://blog.konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong/"/>
     <updated>2012-07-23T03:19:00+08:00</updated>
-    <id>http://psaux.github.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong</id>
+    <id>http://blog.konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong</id>
     <content type="html"><![CDATA[<h2>缘起</h2>
 
 <p>据说每一个使用<a href="http://octopress.com/" title="Octopress">Octopress</a>写博客的码农，第一篇博客必然是讨论Octopress本身，既在江湖混，咱也遵循江湖规矩。</p>
