@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://psaux.github.com
-title: 星尘的Blog --- GitHub + Octopress
-#subtitle: A blogging framework for hackers.
+url: http://blog.konglh.com
+title: 星尘的Blog
+#subtitle: 尘世间一迷途小书童
 author: 星尘
-self_introduction: 尘世间一迷途小书童
+#self_introduction: 尘世间一迷途小书童
 simple_search: http://google.com/search
 description:
 
@@ -98,7 +98,7 @@ default_asides: [custom/asides/category_sidebar.html, custom/asides/tag_cloud.ht
 #disqus_show_comment_count: false
 #
 ## Google Analytics
-#google_analytics_tracking_id:
+google_analytics_tracking_id: UA-33586761-1
 #
 ## Facebook Like
 #facebook_like: false
