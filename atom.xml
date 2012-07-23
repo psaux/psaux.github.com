@@ -4,7 +4,7 @@
   <title><![CDATA[星尘的Blog]]></title>
   <link href="http://blog.konglh.com/atom.xml" rel="self"/>
   <link href="http://blog.konglh.com/"/>
-  <updated>2012-07-24T00:02:17+08:00</updated>
+  <updated>2012-07-24T03:35:02+08:00</updated>
   <id>http://blog.konglh.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
@@ -131,7 +131,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>它其实类似于两条命令的合体，如果你修改主题，需要了解这两个命令，如果不想改，无视这儿就好。</p>
+<p>它其实类似于下面两条命令的合体，如果你修改主题，需要了解这两个命令，如果不想改，无视这儿就好:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
