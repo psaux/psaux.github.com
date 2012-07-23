@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Summary | 星尘的Blog --- GitHub + Octopress]]></title>
   <link href="http://psaux.github.com/blog/categories/summary/atom.xml" rel="self"/>
   <link href="http://psaux.github.com/"/>
-  <updated>2012-07-23T17:53:46+08:00</updated>
+  <updated>2012-07-23T18:04:01+08:00</updated>
   <id>http://psaux.github.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
@@ -124,7 +124,7 @@
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake install
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-<p>它其实等价于两条命令，如果你修改主题，需要了解这两个命令，如果不想改，无视这儿就好。
+<p>它其实类似于两条命令的合体，如果你修改主题，需要了解这两个命令，如果不想改，无视这儿就好。
 <div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake update_source<span class="o">[</span><span class="s1">&#39;classic&#39;</span><span class="o">]</span>
