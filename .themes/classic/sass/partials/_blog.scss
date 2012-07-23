@@ -43,7 +43,14 @@ article {
     padding-top: 0.8em;
     background: $img-border top left repeat-x;
   }
+
+  .entry-content {
+    ul {
+      padding-left: 2em;
+    }
+  }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
+
   h2:first-child, header + h2 { background: none; }
   .feature {
     padding-top: .5em;
