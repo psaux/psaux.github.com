@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Summary | 星尘的Blog]]></title>
   <link href="http://blog.konglh.com/blog/categories/summary/atom.xml" rel="self"/>
   <link href="http://blog.konglh.com/"/>
-  <updated>2012-07-29T12:28:11+08:00</updated>
+  <updated>2012-08-06T03:13:30+08:00</updated>
   <id>http://blog.konglh.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
@@ -157,7 +157,7 @@
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake new_post['test']
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post['test']
 </span><span class='line'>mkdir -p source/&lt;em>posts
 </span><span class='line'>Creating new post: source/&lt;/em>posts/2012-07-23-test.markdown</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
