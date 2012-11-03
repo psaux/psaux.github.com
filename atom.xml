@@ -4,7 +4,7 @@
   <title><![CDATA[星尘的Blog]]></title>
   <link href="http://konglh.com/atom.xml" rel="self"/>
   <link href="http://konglh.com/"/>
-  <updated>2012-11-03T22:06:43+08:00</updated>
+  <updated>2012-11-03T22:17:58+08:00</updated>
   <id>http://konglh.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
@@ -455,6 +455,19 @@
 </span><span class='line'>git add *.markdown
 </span><span class='line'>git commit -m <span class="s1">&#39;backup&#39;</span>
 </span><span class='line'>git push origin store
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>9. 补充</h3>
+
+<p><a href="http://zespia.tw/" title="zespia">zespia</a>同学的Blog的主题设计简单淡雅，非常符合我的审美，现在把它移植到了Octopress中，主题名hexo。BTW，感谢psefxx@github的协助，前端我还是很不懂的，→_→。</p>
+
+<p>使用方法如下：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake update_source<span class="o">[</span><span class="s1">&#39;hexo&#39;</span><span class="o">]</span>
+</span><span class='line'>rake update_style<span class="o">[</span><span class="s1">&#39;hexo&#39;</span><span class="o">]</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
