@@ -1,0 +1,82 @@
+* {margin:0 auto;}
+$body-color:#eee;
+$body-font-color:#444;
+$body-font-size:14px;
+body {
+    color:$body-font-color;
+    background:$body-color;
+    font-size:$body-font-size;
+    text-shadow: 0 0 1px transparent;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    margin: 0 30px;
+    h1 {font-size:1.8em;}
+    a {
+        text-decoration:none;
+        color:#258fb8;
+    }
+    #main {
+        margin:0 auto;
+        max-width:1200px;
+    }
+    .alignLeft {float:left}
+    .alignRight {float:right}
+    .clearfix {
+        zoom:1;
+        &:before, &:after {
+            content: "";
+            display: table;
+        }
+        &:after {
+            clear:both;
+        }
+    }
+    header {
+        text-shadow: 0 0 1px white;
+        margin: 50px auto;
+        max-width:1200px;
+        hgroup {
+            a {
+                &:hover {
+                    color:#258fb8;
+                }
+                color:#999;
+                text-decoration:none;
+            }
+            nav {
+                float:right;
+                font-size:14px;
+                font-family: "Lato", Helvetical Neue, Helvetical,Arial,sans-serif;
+                line-height:2.5em;
+                li{
+                    list-style:none;
+                    float:left;
+                    margin-left:30px;
+                }
+            }
+
+            h1 {
+                font-weight:normal;
+                font-size:2.5em;
+                font-family: "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+                line-height:1;
+                float:left;
+                a {
+                    color:#999
+                }
+            }
+        }
+    }
+    footer {
+        color:#999;
+        margin-bottom:50px;
+        margin-right:auto;
+        margin-left:auto;
+        font:0.9em/1.6 "Lato", Helvetical Neue, Helvetica, Arial, sans-serif;
+        text-shadow:0 0 1px white;
+        max-width:1200px;
+        a {
+            color:#258fb8;
+            text-decoration:none;
+        }
+    }
+}

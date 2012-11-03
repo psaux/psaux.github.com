@@ -1,0 +1,11 @@
+{% capture category %}{% if post %}{{ post.categories | size }}{% else %}{{ page.categories | size }}{% endif %}{% endcapture %}
+{% unless category == '0' %}
+<span class="categories">
+  {% if category == '1' %}{{ 'Category:' }}{% else %}{{ 'Categories:' }}{% endif %}
+  {% if post %}
+    {{ post.categories | category_links }}
+  {% else %}
+    {{ page.categories | category_links }}
+  {% endif %}
+</span>
+{% endunless %}

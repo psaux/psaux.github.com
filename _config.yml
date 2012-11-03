@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blog.konglh.com
+url: http://konglh.com
 title: 星尘的Blog
 #subtitle: 尘世间一迷途小书童
 author: 星尘
-#self_introduction: 尘世间一迷途小书童
+self_introduction: 尘世间一迷途小书童
 simple_search: http://google.com/search
 description:
 
@@ -50,7 +50,7 @@ cn_share_comment: true  # plugins for China, sharing and comments
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 #default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
-default_asides: [custom/asides/category_sidebar.html, custom/asides/tag_cloud.html, asides/recent_posts.html]
+default_asides: [search.html, custom/asides/category_sidebar.html, custom/asides/tag_cloud.html, asides/recent_posts.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
