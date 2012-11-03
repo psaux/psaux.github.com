@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[星尘的Blog]]></title>
-  <link href="http://blog.konglh.com/atom.xml" rel="self"/>
-  <link href="http://blog.konglh.com/"/>
-  <updated>2012-10-21T02:57:49+08:00</updated>
-  <id>http://blog.konglh.com/</id>
+  <link href="http://konglh.com/atom.xml" rel="self"/>
+  <link href="http://konglh.com/"/>
+  <updated>2012-11-03T19:34:57+08:00</updated>
+  <id>http://konglh.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[羽毛球基础知识]]></title>
-    <link href="http://blog.konglh.com/blog/2012/09/28/yu-mao-qiu-ji-chu-zhi-shi/"/>
+    <link href="http://konglh.com/blog/2012/09/28/yu-mao-qiu-ji-chu-zhi-shi/"/>
     <updated>2012-09-28T00:55:00+08:00</updated>
-    <id>http://blog.konglh.com/blog/2012/09/28/yu-mao-qiu-ji-chu-zhi-shi</id>
+    <id>http://konglh.com/blog/2012/09/28/yu-mao-qiu-ji-chu-zhi-shi</id>
     <content type="html"><![CDATA[<h2>一、简介</h2>
 
 <p>首先强调一下，本文写得是球 Shuttlecock，不是羽毛球运动 Badminton，中文表达这两个有那么一点点郁闷。不同于羽毛球拍有海量的资料文章，关于球本身的资料比较少而且比较混乱，本文总结一下本人目前学习到的知识，多数资料来自中羽，不过由于很多资料都是看帖子的时候随手记录，出处多数木有记录，所以就不一一列举了。</p>
@@ -93,6 +93,8 @@
 </table>
 
 
+<p><strong>注:</strong> yy的球速是按上表的No.1这种方式标志的，No.1是75号，依次类推；Lining的球型号结尾的-X对应就是球速：-1=74，-2=75，-3=76， -4=77， -5=78， -6=79，有时是-1000，-2000。。。意思是一样的。</p>
+
 <h2>三、羽毛球种类</h2>
 
 <p>目前羽毛球还是以天然羽毛为主，最主要的材料是鸭毛和鹅毛，塑料球在国内用的很少，但据说在英国目前是塑料球为主。个人觉得未来肯定是塑料球的天下，随着材料科学和制造工艺的进步，塑料球以后完全能做到既耐打飞行又好。但是目前的塑料球和羽球还有不小的差距，打起来球感差得很远，所以目前还是很不建议打塑料球，下面只讨论羽球。</p>
@@ -146,7 +148,7 @@
 
 <p>对于小方的球，右手毛的飞行就容易出现下降的过程中走斜线的情况，所以小方里面右手毛的球很多人会认为不好。可是，球厂也不会特意分出左右手毛，否则左手毛有人买，右手毛卖给谁去啊？！所以能买到小方全左手毛的球，应该是比较超值的事情。</p>
 
-<p><img src="http://blog.konglh.com/images/badminton/ball/right-left.jpg" title="左边是右毛，右边是左毛" alt="右毛球-左毛球" /></p>
+<p><img src="http://konglh.com/images/badminton/ball/right-left.jpg" title="左边是右毛，右边是左毛" alt="右毛球-左毛球" /></p>
 
 <p>如图，左边的是右毛球，右边的是左毛球。</p>
 
@@ -173,11 +175,11 @@
 
 <p>台湾中华软木厂生产的一种化纤材料，质量轻、硬度好、耐打性强，故被广泛采用。台纤得名于“台湾产的化纤材料”。</p>
 
-<p><img src="http://blog.konglh.com/images/badminton/ball/taixian.jpg" title="台纤示意图" alt="台纤" /></p>
+<p><img src="http://konglh.com/images/badminton/ball/taixian.jpg" title="台纤示意图" alt="台纤" /></p>
 
 <p>软木:</p>
 
-<p><img src="http://blog.konglh.com/images/badminton/ball/soft-wood.jpg" title="软木示意图" alt="软木" /></p>
+<p><img src="http://konglh.com/images/badminton/ball/soft-wood.jpg" title="软木示意图" alt="软木" /></p>
 
 <p>球头的常见种类如下:</p>
 
@@ -185,12 +187,12 @@
 
 <p>这是低端球最常见的球头，RSL7、RSL6均为此种球头。</p>
 
-<p><img src="http://blog.konglh.com/images/badminton/ball/2-assemble.jpg" title="二拼示意图" alt="二拼" /></p>
+<p><img src="http://konglh.com/images/badminton/ball/2-assemble.jpg" title="二拼示意图" alt="二拼" /></p>
 
 <h4>三拼(软木+台纤+软木 或 软木+台纤+碎木, 示例为软木+台纤+软木)</h4>
 
 <p>三拼球头是中端到高端的常见配置。
-<img src="http://blog.konglh.com/images/badminton/ball/3-assemble.jpg" title="三拼示意图" alt="三拼" /></p>
+<img src="http://konglh.com/images/badminton/ball/3-assemble.jpg" title="三拼示意图" alt="三拼" /></p>
 
 <h4>全软木</h4>
 
@@ -198,7 +200,7 @@
 
 <p>全软木多见于高端球。</p>
 
-<p><img src="http://blog.konglh.com/images/badminton/ball/full-wood.jpg" title="全软木示意图" alt="全软木" /></p>
+<p><img src="http://konglh.com/images/badminton/ball/full-wood.jpg" title="全软木示意图" alt="全软木" /></p>
 
 <h2>六、市场</h2>
 
@@ -216,9 +218,9 @@
   
   <entry>
     <title type="html"><![CDATA[基于 GitHub + Octopress 搭建博客系统]]></title>
-    <link href="http://blog.konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong/"/>
+    <link href="http://konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong/"/>
     <updated>2012-07-23T03:19:00+08:00</updated>
-    <id>http://blog.konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong</id>
+    <id>http://konglh.com/blog/2012/07/23/ji-yu-github-plus-octopress-da-jian-zi-ji-de-bo-ke-xi-tong</id>
     <content type="html"><![CDATA[<h2>缘起</h2>
 
 <p>据说每一个使用<a href="http://octopress.com/" title="Octopress">Octopress</a>写博客的码农，第一篇博客必然是讨论Octopress本身，既在江湖混，咱也遵循江湖规矩。</p>
