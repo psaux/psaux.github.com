@@ -4,7 +4,7 @@
   <title><![CDATA[星尘的Blog]]></title>
   <link href="http://konglh.com/atom.xml" rel="self"/>
   <link href="http://konglh.com/"/>
-  <updated>2012-11-03T23:32:01+08:00</updated>
+  <updated>2012-11-04T12:23:05+08:00</updated>
   <id>http://konglh.com/</id>
   <author>
     <name><![CDATA[星尘]]></name>
@@ -454,6 +454,8 @@
 </span><span class='line'>git push origin store
 </span></code></pre></td></tr></table></div></figure>
 
+
+<p><strong>注</strong> 弄两个分支还是太累了，现在直接把所有数据提到个人分支了，省心省力才是好东西。</p>
 
 <h3>9. 补充</h3>
 
