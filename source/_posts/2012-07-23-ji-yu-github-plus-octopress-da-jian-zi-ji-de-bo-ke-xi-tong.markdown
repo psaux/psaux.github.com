@@ -172,6 +172,9 @@ git push origin store
 {% endcodeblock %}
 
 
+**注** 弄两个分支还是太累了，现在直接把所有数据提到个人分支了，省心省力才是好东西。
+
+
 ### 9. 补充
 
 [zespia][]同学的Blog的主题设计清爽淡雅，非常符合我的审美，现在把它移植到了Octopress中，主题名hexo。BTW，感谢psefxx@github的协助，前端我还是很不懂的，→_→。
